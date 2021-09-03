@@ -1,0 +1,116 @@
+<html>
+<head>
+<title>STAND UP FOR YOUR RIGHTS!</title>
+<style>
+    body {
+    background-color:#baceff;
+    }
+	@keyframes flash {
+	from {color:red;}
+	to {color:white;}
+	}
+	#mq {
+	animation-name: flash;
+	animation-duration: .5;
+	animation-iteration-count: infinite;
+	}
+    h2 {
+    color:red;
+    }
+    #opt {
+    display:block;
+	border-style:solid;
+	padding:10;
+    }
+    marquee {
+    white-space:nowrap;
+    }
+    i {
+    color:#ba0c00;
+    }
+    a {
+    color:#b53b33;
+    }
+    a:visited {
+    color:#ff4033;
+    }
+    #why {
+    position:absolute;
+    left:800px;
+    top:300px;
+    border-left-style:dotted;
+    padding:20px;
+    padding-top:0;
+    }
+    #list {
+    position:absolute;
+    left:5px;
+    top:300px;
+    }
+	#runningoutofideasforthesetbh {
+	position:absolute;
+	left:800px;
+	top:500px;
+	right:5px;
+	text-align:justify;
+	}
+
+</style>
+</head>
+<body>
+<script>
+function collapse() {
+var b = document.getElementById("opt");
+var c = document.getElementById("list");
+var d = document.getElementById("why");
+var e = document.getElementById("runningoutofideasforthesetbh");
+if (b.style.display === "none") {
+    b.style.display = "block";
+
+}
+else {
+    b.style.display = "none";
+    c.style.top = "150px";
+    d.style.top = "150px";
+	e.style.top = "350px";
+}
+}
+</script>
+<div id="opt">
+<p>Izabella Ponce<br>A2 American History<br>Mr. Upchurch<br>3 September 2021</p>
+<p>I wanted to make this sort of a webpage that one would look at back when they were starting the nonimportation boycott, ignoring the fact that the language was different and, more importantly, there wasn't any internet. I hand-coded this, so forgive the bare-bones aesthetic, I decided to do the absolute most time consuming thing I could think of, apparently. If you want to see the code I wrote itself, here's a link to it.</p>
+<p>Press the HIDE button below to hide this box, you'll have to refresh the page for it to show up again.</p>
+<button onclick="collapse()">HIDE</button></div>
+<div><marquee><h2><span id="mq">PUT AN END TO THIS UNFAIR TAXATION! HELP US SHOW THE BRITISH THAT WE AREN'T JUST BANKS FOR THEM TO STEAL FROM!</span></h2></marquee></div>
+<div id="list">
+<h3 style="text-decoration:underline;"><i>Want to stop these unfair taxes? Here's how you can help!</i></h3>
+
+<p>All you need to do is boycott <i>anything that is being unfairly taxed.</i> Some examples include:</p>
+<ul>
+<h4>Anything included in the Sugar Act, including:</h4>
+<li>Sugar</li>
+<li>Coffee</li>
+<li>Certain Wines</li>
+<li><i><a href="https://www.ushistory.org/declaration/related/sugaract.html">Source</a></i></li>
+<h4>Anything included in the Stamp Act, including:</h4>
+<li>Any Legal Documents</li>
+<li>Newspapers</li>
+<li>Pamphlets</li>
+<li>Newspapers</li>
+<li>Playing Cards</li>
+<li>Dice</li>
+<li><i><a href="https://www.history.com/topics/american-revolution/stamp-act">Source</a></i></li>
+</ul>
+</div>
+<div id="why"><h3><i>Will this really work?</i></h3>
+<p>If we don't buy these products, then they won't get the tax money from it OR the profit from buying the product itself. When they realize that we aren't giving them money, and the taxes are backfiring, they'll get rid of them. All we need to do to get rid of this unfair taxation is just stop buying a few things for just a little while. Not too hard, is it?</p>
+</div>
+<div id="runningoutofideasforthesetbh">
+<marquee>
+<h2>BOYCOTT THEIR PRODUCTS<br><br>
+LOWER THEIR PROFITS<br><br>
+PUT AN END TO UNFAIR TAXATION!</h2>
+</marquee>
+</div>
+</body>
+</html>
