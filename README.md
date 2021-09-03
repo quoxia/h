@@ -1,2 +1,1 @@
-# h
-hey :kiss: made this b/c the school blocks neocities and i needed something to host a project ^_^ and i wanted it to stop yelling at me to make a readme file
+github stop yelling at me to make this file i don't know how your service works please just let me do my history homework in peace
